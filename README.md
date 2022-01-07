@@ -4,7 +4,7 @@
 This repository was created for collection information about the interviews for QA/SDET/Automation QA positions. Don't hesistate to create a pull-request for adding new materials.
 
 ## References
-- Main document for FAANG preparation: [faang-interview](faang-interview.github.io). Here you can find info about algorithms, job offer negotiation, behavioral interview and so on.
+- Main document for FAANG preparation: [faang-interview](https://github.com/faang-interview/faang-interview.github.io). Here you can find info about algorithms, job offer negotiation, behavioral interview and so on.
 
 ## Amazon
 **Interview Processes**:
