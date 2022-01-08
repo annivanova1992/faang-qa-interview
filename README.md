@@ -8,12 +8,13 @@ This repository was created for collecting information about the interviews for 
 
 ## Amazon
 **Interview Process**
-- Phone screening, Testing questions, Coding and Analytical Skills, Behavioral Questions
-- Round 1 (1 hour)
-  -  Leadership Principle questions (30 minutes)
-  -  Coding question (15 minutes): 1 easy/medium problem from leetcode 
-  -  Write test cases for problem from previous point (10 minutes)
-  -  Questions to the interviewer (5 minutes)
+
+Looks like that interview process varies, but seemingly most common flow has the following structure
+- Round 1
+  -  LP questions
+  -  Coding question: 1 [LC](https://leetcode.com/) easy/medium problem
+  -  Test data and test cases for problem from previous point
+  -  Questions to the interviewer
 - Round 2
   - Testing theory
   - 4 LP questions 
@@ -23,14 +24,29 @@ This repository was created for collecting information about the interviews for 
   - 4 LP questions
   - Questions for the interviewer
 - Round 4
-  - Behavioral and LP questions 
+  - LP questions 
 - Round 5
-  - Leadership Principle questions
-  - Coding question: 1 easy/medium problem from leetcode 
+  - LP questions
+  - Coding question: 1 [LC](https://leetcode.com/) easy/medium problem
   - Test data and test cases for problem from previous point
   - Questions for the interviewer
 
-**References** with interview details for QAE:
+**Behavior questions**
+- How will you handle a defect found on the day before a major public release where Jeff Bezos is going to demostrate to public. How will you fix this ?
+- How to handle a hot fix? Do you take ownership in debugging issue or deligate the task to developers?
+- How will you handle the stress at work, more work less time?
+- Have you taken any initiative or leadership task in the past, if so what?
+- Any challenges with team member as well as technical challenge? How did u handle?
+- How wil you handle defect found during hot fix which needs immediate fix?
+- How will you test devices like bluetooth keyboard?
+
+**Coding questions for QAE**
+- Easy level leetcode questions including math operations, strings, arrays, loops, hashmap, etc
+
+**Coding questions for SDET**
+- Easy/medium level leetcode questions including math operations, strings, arrays, loops, hashmap, tree, sorting, linked list etc
+
+**References** with interview details for QAE
 - Amazon QA Engineer Interview Questions https://www.interviewkickstart.com/interview-questions/amazon-qa-engineer-interview-questions 
 - Has anyone taken the Amazon QA Engineer code test? https://www.reddit.com/r/QualityAssurance/comments/gfnw8e/has_anyone_taken_the_amazon_qa_engineer_code_test/ 
 - How to Prepare for Amazon Quality Assurance Engineer Interview https://www.techbeamers.com/amazon-quality-assurance-engineer-interview-guide/ 
@@ -42,7 +58,7 @@ This repository was created for collecting information about the interviews for 
 
 ## Apple 
 **Interview Process**
-- Phone screening, Leet code easy, Behavioural questions, QA Basics, Work Experience
-- Phone screening, Test task, Behavioural questions, QA Basics, Work Experience
 
 Interview questions depend on team.
+- Phone screening, Leet code easy, Behavioural questions, QA Basics, Work Experience
+- Phone screening, Test task, Behavioural questions, QA Basics, Work Experience
