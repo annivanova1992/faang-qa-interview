@@ -128,7 +128,6 @@ If you passed the technical interview (no detailed feedback, more yay/nay count 
 For QAE: Easy level leetcode questions including math operations, strings, arrays, loops, hashmap, etc
 For SDET: Easy/medium level leetcode questions including math operations, strings, arrays, loops, hashmap, tree, sorting, linked list etc
 - How to design simple HashMap ([HashMap Implementation for Java](https://medium.com/swlh/hashmap-implementation-for-java-90a5f58d4a5b)) [LC reference](https://leetcode.com/problems/design-hashmap/)
-- What is difference List and LinkedList?
 - Questions regarding trees,linked list , Bst ,Heap were asked
 - Write program for bubblesort and how to identify a palindrome?
 - Find all palindromic substrings of a given string
@@ -139,16 +138,16 @@ For SDET: Easy/medium level leetcode questions including math operations, string
 - trees, graphs and optimising algorithms
 - Simple programs related to number reversal without using Array
 - Finding the pairs forming a particular sum from a given array
-- Write a function to reverse a linked List
+- Write a function to reverse a linked List [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
 - Implement a linked List
 - Design and Implement a music player that has the songs and band Names stored internally in this class using appropriate data structure . with the methods to play a song and find the top played song. The songs themselves are write once, read rest of the song's lifetime. So, I would not change the way the song is stored...a sequentially written file. The directory that maintains the list of songs could and will be randomly accessed. So, this directory data structure needs to support random directory reads. In addition, it seems that a consecutive play should not repeat a song i.e. this calls for sequential directory reads. One good data structure that supports both efficient random reads (lg n) and supports sequential reads is a btree. Other structures like a skip list provides both random and sequential access with its own trade offs.
-- to find the sum of all nodes in a binary tree which was divided vertically
+- to find the sum of all nodes in a binary tree which was divided vertically 
 Find from a list of numbers where each number is repeating even number of times except one. Find that number
 Write a function to find a substring in a string. Test your code, write the test cases.
 - Convert a sorted binary array of int to balanced BST.
 - Implement an insert method for a sorted circular linked list
-- Merging of two sorted arrays
-- Parenthesis matching
+- Merging of two sorted arrays [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)
+- Parenthesis matching [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
 - Sort the digits of a number in efficient manner
 - Given a linked list with N nodes, Reverse the list in a group of 'k' nodes
 - Convert a binary tree into a doubly linked list
@@ -156,11 +155,10 @@ Write a function to find a substring in a string. Test your code, write the test
 - In a tree node, there is an extra pointer called random. Point random of each node to the next node in that level, NULL if it is the right most node.
 - Given a tree, make the left and right pointers such that it acts as a doubly linked list in spiral level order.
 - Given a number of closing and opening brackets, produce the number of sets of brackets that have been closed/opened.
-- Write a method that returns how many time a letter appears in a string. Followed by how would you test it.
-- Given a string and a letter, How many times does the letter appear. Followed by how would you test it.
+- Given a string and a letter, How many times does the letter appear. Followed by how would you test it. 
 - Print the list of numbers in an array fall beyond the average of the total numbers of the same array. And generate the test cases assuming it is a black box. (Intention here is to generate the exhaustive test cases)
 - Rotate a string in clockwise direction
-- Given an array of integers and k, print all the pairs of numbers (a,b), both of them inside the array, such that a+b=k
+- Given an array of integers and k, print all the pairs of numbers (a,b), both of them inside the array, such that a+b=k [1. Two Sum](https://leetcode.com/problems/two-sum/) [167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
 - there are a bunch of distinctive numbers with only one pair of duplicates. find the odd ones
 - Write code to reverse a linked list from its mid point. So 1->2->3->4->5->6->7 becomes 1->2->3->7->6->5->4
 - Given two texts, x and y, where x < y, check if all the characters of x are in y.
@@ -220,6 +218,7 @@ Write a function to find a substring in a string. Test your code, write the test
 - As a test engineer, what would you want built into the design of an LRU cache to help you test it.
 - Debug a chat program from user point of view when it is failing to sign in the user means user is entering user name and password but it is not signing him in.
 - What is the time required to search a tree , what is the advantage of AVL tree over ordinary tree? How would you merge 2 sorted arrays?
+- What is difference List and LinkedList?
 
 **
 **References** with interview details for QAE
