@@ -126,7 +126,9 @@ If you passed the technical interview (no detailed feedback, more yay/nay count 
 **Coding questions**
 
 For QAE: Easy level leetcode questions including math operations, strings, arrays, loops, hashmap, etc
+
 For SDET: Easy/medium level leetcode questions including math operations, strings, arrays, loops, hashmap, tree, sorting, linked list etc
+
 - How to design simple HashMap ([HashMap Implementation for Java](https://medium.com/swlh/hashmap-implementation-for-java-90a5f58d4a5b)) [LC reference](https://leetcode.com/problems/design-hashmap/)
 - Questions regarding trees,linked list , Bst ,Heap were asked
 - Write program for bubblesort and how to identify a palindrome?
@@ -157,12 +159,12 @@ Write a function to find a substring in a string. Test your code, write the test
 - Given a number of closing and opening brackets, produce the number of sets of brackets that have been closed/opened.
 - Given a string and a letter, How many times does the letter appear. Followed by how would you test it. 
 - Print the list of numbers in an array fall beyond the average of the total numbers of the same array. And generate the test cases assuming it is a black box. (Intention here is to generate the exhaustive test cases)
-- Rotate a string in clockwise direction
+- Rotate a string in clockwise direction [796. Rotate String](https://leetcode.com/problems/rotate-string/)
 - Given an array of integers and k, print all the pairs of numbers (a,b), both of them inside the array, such that a+b=k [1. Two Sum](https://leetcode.com/problems/two-sum/) [167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
 - there are a bunch of distinctive numbers with only one pair of duplicates. find the odd ones
-- Write code to reverse a linked list from its mid point. So 1->2->3->4->5->6->7 becomes 1->2->3->7->6->5->4
+- Write code to reverse a linked list from its mid point. So 1->2->3->4->5->6->7 becomes 1->2->3->7->6->5->4 
 - Given two texts, x and y, where x < y, check if all the characters of x are in y.
-- Given a string, find the longest repeating substring.
+- Given a string, find the longest repeating substring. [1062. Longest Repeating Substring](https://leetcode.com/problems/longest-repeating-substring/)
 - Write a function that takes two lists of strings and return a list of Strings with all of the intersections of the strings ex: List1 = {"a","a","a", "b", "d"} List2 = {"a", "a", "c", "d"} expectedReturn={"a","a","d"} Also he asked what tests cases I would use to validate the function also he wanted to know the run time analysis of the function
 - Question 1: Setup: Assume primitive Facebook. FB has Members. class Member { String name; String email; List<Member> friends; } Question A: Code printSocialGraph(Member m). Direct friends of m are Level 1 friends. Friends of friends are level 2 friends.....and so on Print level 1 friends first. Then print level 2 friends....and so on Enumerate test cases to verify the implementation is correct.
 - Write a function that converts an int into its alpha-numeric equivalent represented as a null terminated string. The function should accept an int as input and return a string as output. For instance, calling the function with an int value of 324 would return a null terminated string containing "324". Ensure that your function checks for appropriate boundary conditions and edge cases. Assume you cannot use any standard libraries (for example, no itoa or sprintf). Write out test cases to verify your code is working correctly.
@@ -171,7 +173,7 @@ Write a function to find a substring in a string. Test your code, write the test
 - Given an array of numbers including negative, print the highest sum of the continuous sequence you can find.
 - Find the second largest element in an array of integers.
 - Using an already implemented method Rand5() that generates a random integer between the ranges 1-5 uniformly. Using this method, implement a a new method that returns a random integer in the range 1-7 uniformly, i.e. Rand7(). Basically this is Rejection Sampling Algorithm. See http://leetcode.com/2010/11/rejection-sampling.html
-- Finding out if a linkedlist has a loop or not. 
+- Finding out if a linkedlist has a loop or not. [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) 
 - Mergin two sorted linkedlists.
 - Implement a reverse hash table
 - Given a binary tree. Find if there exists a path from root to leaf which sums up to a given number.
@@ -181,7 +183,7 @@ Write a function to find a substring in a string. Test your code, write the test
 - Given a number, find out how many times each digit is repeated in it.
 - Given a number, sum its digits till the sum becomes a single digit. eg. 12345-15-6. Optimize it to O(n) complexity.
 - Given two roman numbers, sum them and print the sum in roman. eg. X+IV=XIV
-- sudo ku solver
+- sudoku solver [37. Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)
 - How would you model a deck of cards? Write a reshuffling function for the deck of cards.
 - Write a function which takes two strings as parameters and returns a string of common characters between the two strings but no duplicates. Use hash table to implement the algorithm.
 - Write a code to swap left and right node of a tree.
